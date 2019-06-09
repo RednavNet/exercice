@@ -109,20 +109,20 @@ export default class App extends Component {
           />
         </View >
         <View style={{ flex: 1 }}>
-          <View style={{ marginLeft: 20, flex: 0.7, marginTop: 5 }}>
-            <Text style={{ color: '#FEFFFF', fontSize: 32, fontFamily: "Montserrat-Medium" }}>{item.name}</Text>
+          <View style={{  marginLeft: 15, marginTop: 10 }}>
+            <Text style={{ color: '#FEFFFF', fontSize: 20, fontFamily: "Montserrat-Medium" }}>{item.name}</Text>
           </View>
-          <View style={{ flexDirection: 'row', marginTop: 50 }}>
+          <View style={{ flexDirection: 'row' }}>
             <Image
               source={require('./img/ic_bike.png')}
-              style={[styles.exerciceItemImage, { marginLeft: 30 }]}
+              style={[styles.exerciceItemImage, { marginLeft: 15}]}
             />
             <Text style={styles.exerciceItem}>{item.calories + ' Kcal'}</Text>
             <View
               style={{
-                borderLeftColor: '#323C47',
+                borderLeftColor: '#FFF',
                 borderLeftWidth: 1,
-                marginLeft: 5
+                marginLeft: 2
               }}
             />
             <Image
@@ -132,7 +132,7 @@ export default class App extends Component {
             <Text style={styles.exerciceItem}>{item.time + ' m'}</Text>
             <View
               style={{
-                borderLeftColor: '#323C47',
+                borderLeftColor: '#FFF',
                 borderLeftWidth: 1,
                 marginLeft: 5
               }}
@@ -258,7 +258,7 @@ const styles = StyleSheet.create({
     fontFamily: "Montserrat-Medium"
   },
   exerciceDay: {
-    marginLeft: 30,
+    marginLeft: 15,
     borderRadius: 20,
     borderWidth: 1,
     borderColor: '#FEFFFF'
