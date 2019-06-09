@@ -1,4 +1,4 @@
-# Exercise
+# Exercice
 Aplicativo para marcar quais exercícios foram feitos e quanto de calorias e tempo foram gastos. 
 
 ## Para cumprir o desafio instalei:
