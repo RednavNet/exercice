@@ -23,3 +23,10 @@ Não esqueca de marcar a aba react-native-cli
  ## Observação
  1. No data.json removi um filtro yoga pois haviam dois.
  2. Para filtar eu usei o nome do exercício portanto somente filtra quando selecionar yoga, não achei outra relação entre o filtro e exercícios
+
+ ## Instalação
+ 1. Clone o projeto
+ 2. rode o comando npm install  para instalar os modulos 
+ 3. react native run-android para rodar no android
+
+ ### Foi testado em Motorola G5 e Iphone 5s
